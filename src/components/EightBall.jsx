@@ -1,4 +1,5 @@
 import React from 'react';
+import './eightBall.css';
 
 const EightBall = ({ magic }) => { 
     const { answer, question, type } = magic
@@ -10,6 +11,5 @@ const EightBall = ({ magic }) => {
     </div>
     )
 }
-
 
 export default EightBall;

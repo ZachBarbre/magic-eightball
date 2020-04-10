@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import AskEightBall from './components/AskEightBall.jsx';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <h1>Ask the Magic Eight Ball</h1>
       </header>
       <main>
-        <p>Eightball goes here</p>
+        <AskEightBall />
       </main>
     </div>
   );
